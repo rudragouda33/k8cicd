@@ -1,4 +1,4 @@
-- hosts: ip-172-20-45-240
+- hosts: localhost
   tasks:
   - name: Deploy the service
     k8s:
