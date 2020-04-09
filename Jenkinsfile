@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "rudragouda33/k8scicd"
+        registry = "rudragoudadockerhub/rudragouda33/k8scicd"
         GOCACHE = "/tmp"
     }
     stages {
