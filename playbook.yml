@@ -1,4 +1,4 @@
-- hosts: 54.162.193.249
+- hosts: ip-172-20-45-240
   tasks:
   - name: Deploy the service
     k8s:
